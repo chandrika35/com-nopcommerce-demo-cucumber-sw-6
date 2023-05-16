@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7427505700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can arrange the products in alphabetical order",
+        "description": "",
+        "id": "computerpage-test;user-can-arrange-the-products-in-alphabetical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 679931200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84915000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 923334300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on computer",
+            "match": {
+              "location": "ComputerSteps.iClickOnComputer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 827765200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on desktop",
+            "match": {
+              "location": "ComputerSteps.iClickOnDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119488400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select sort by position Name: Z to A",
+            "match": {
+              "location": "ComputerSteps.iSelectSortByPositionNameZToA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the Product will arrange in Descending order",
+            "match": {
+              "location": "ComputerSteps.verifyTheProductWillArrangeInDescendingOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Sanity"
+          },
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "ComputerPage Test",
+    "description": "As a user I want to arrange products and add them to shopping cart successfully",
+    "id": "computerpage-test",
+    "keyword": "Feature",
+    "uri": "computer.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2611077100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can navigate to cell phones page successfully",
+        "description": "",
+        "id": "electronics-test;user-can-navigate-to-cell-phones-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 619358200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146826700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can mouse hover on electronics tab",
+            "match": {
+              "location": "ElectronicsSteps.iCanMouseHoverOnElectronicsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 900308200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can mouse hover on cell phones and click",
+            "match": {
+              "location": "ElectronicsSteps.iCanMouseHoverOnCellPhonesAndClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54381900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can verify the text \"Cell phones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cell phones",
+                  "offset": 23
+                }
+              ],
+              "location": "ElectronicsSteps.iCanVerifyTheText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Sanity"
+          },
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Electronics Test",
+    "description": "As a user I can navigate to any product page and place the order successfully",
+    "id": "electronics-test",
+    "keyword": "Feature",
+    "uri": "electronics.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1661897300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can navigate to Computer page successfully",
+        "description": "",
+        "id": "homepage-test;user-can-navigate-to-computer-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 639302800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 943299600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select computers",
+            "match": {
+              "location": "HomePageSteps.iSelectComputers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22752900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Computers text displayed",
+            "match": {
+              "location": "HomePageSteps.computersTextDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Sanity"
+          },
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage Test",
+    "description": "As a user I can navigate to various pages successfully",
+    "id": "homepage-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
